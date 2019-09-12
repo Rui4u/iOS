@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		816E30562329F26E00EDDC34 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 816E30552329F26E00EDDC34 /* AppDelegate.m */; };
+		816E30592329F26E00EDDC34 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 816E30582329F26E00EDDC34 /* ViewController.m */; };
+		816E305C2329F26E00EDDC34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 816E305A2329F26E00EDDC34 /* Main.storyboard */; };
+		816E305E2329F26F00EDDC34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 816E305D2329F26F00EDDC34 /* Assets.xcassets */; };
+		816E30612329F26F00EDDC34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 816E305F2329F26F00EDDC34 /* LaunchScreen.storyboard */; };
+		816E30642329F26F00EDDC34 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 816E30632329F26F00EDDC34 /* main.m */; };
+		816E306E2329F26F00EDDC34 /* Copy_MutableCopyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 816E306D2329F26F00EDDC34 /* Copy_MutableCopyTests.m */; };
+		816E30792329F26F00EDDC34 /* Copy_MutableCopyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 816E30782329F26F00EDDC34 /* Copy_MutableCopyUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		816E306A2329F26F00EDDC34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 816E30492329F26E00EDDC34 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 816E30502329F26E00EDDC34;
+			remoteInfo = "Copy MutableCopy";
+		};
+		816E30752329F26F00EDDC34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 816E30492329F26E00EDDC34 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 816E30502329F26E00EDDC34;
+			remoteInfo = "Copy MutableCopy";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		816E30512329F26E00EDDC34 /* Copy MutableCopy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Copy MutableCopy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		816E30542329F26E00EDDC34 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		816E30552329F26E00EDDC34 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		816E30572329F26E00EDDC34 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		816E30582329F26E00EDDC34 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		816E305B2329F26E00EDDC34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		816E305D2329F26F00EDDC34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		816E30602329F26F00EDDC34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		816E30622329F26F00EDDC34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		816E30632329F26F00EDDC34 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		816E30692329F26F00EDDC34 /* Copy MutableCopyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Copy MutableCopyTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		816E306D2329F26F00EDDC34 /* Copy_MutableCopyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Copy_MutableCopyTests.m; sourceTree = "<group>"; };
+		816E306F2329F26F00EDDC34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		816E30742329F26F00EDDC34 /* Copy MutableCopyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Copy MutableCopyUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		816E30782329F26F00EDDC34 /* Copy_MutableCopyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Copy_MutableCopyUITests.m; sourceTree = "<group>"; };
+		816E307A2329F26F00EDDC34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		816E304E2329F26E00EDDC34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		816E30662329F26F00EDDC34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		816E30712329F26F00EDDC34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		816E30482329F26E00EDDC34 = {
+			isa = PBXGroup;
+			children = (
+				816E30532329F26E00EDDC34 /* Copy MutableCopy */,
+				816E306C2329F26F00EDDC34 /* Copy MutableCopyTests */,
+				816E30772329F26F00EDDC34 /* Copy MutableCopyUITests */,
+				816E30522329F26E00EDDC34 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		816E30522329F26E00EDDC34 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				816E30512329F26E00EDDC34 /* Copy MutableCopy.app */,
+				816E30692329F26F00EDDC34 /* Copy MutableCopyTests.xctest */,
+				816E30742329F26F00EDDC34 /* Copy MutableCopyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		816E30532329F26E00EDDC34 /* Copy MutableCopy */ = {
+			isa = PBXGroup;
+			children = (
+				816E30542329F26E00EDDC34 /* AppDelegate.h */,
+				816E30552329F26E00EDDC34 /* AppDelegate.m */,
+				816E30572329F26E00EDDC34 /* ViewController.h */,
+				816E30582329F26E00EDDC34 /* ViewController.m */,
+				816E305A2329F26E00EDDC34 /* Main.storyboard */,
+				816E305D2329F26F00EDDC34 /* Assets.xcassets */,
+				816E305F2329F26F00EDDC34 /* LaunchScreen.storyboard */,
+				816E30622329F26F00EDDC34 /* Info.plist */,
+				816E30632329F26F00EDDC34 /* main.m */,
+			);
+			path = "Copy MutableCopy";
+			sourceTree = "<group>";
+		};
+		816E306C2329F26F00EDDC34 /* Copy MutableCopyTests */ = {
+			isa = PBXGroup;
+			children = (
+				816E306D2329F26F00EDDC34 /* Copy_MutableCopyTests.m */,
+				816E306F2329F26F00EDDC34 /* Info.plist */,
+			);
+			path = "Copy MutableCopyTests";
+			sourceTree = "<group>";
+		};
+		816E30772329F26F00EDDC34 /* Copy MutableCopyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				816E30782329F26F00EDDC34 /* Copy_MutableCopyUITests.m */,
+				816E307A2329F26F00EDDC34 /* Info.plist */,
+			);
+			path = "Copy MutableCopyUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		816E30502329F26E00EDDC34 /* Copy MutableCopy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 816E307D2329F26F00EDDC34 /* Build configuration list for PBXNativeTarget "Copy MutableCopy" */;
+			buildPhases = (
+				816E304D2329F26E00EDDC34 /* Sources */,
+				816E304E2329F26E00EDDC34 /* Frameworks */,
+				816E304F2329F26E00EDDC34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Copy MutableCopy";
+			productName = "Copy MutableCopy";
+			productReference = 816E30512329F26E00EDDC34 /* Copy MutableCopy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		816E30682329F26F00EDDC34 /* Copy MutableCopyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 816E30802329F26F00EDDC34 /* Build configuration list for PBXNativeTarget "Copy MutableCopyTests" */;
+			buildPhases = (
+				816E30652329F26F00EDDC34 /* Sources */,
+				816E30662329F26F00EDDC34 /* Frameworks */,
+				816E30672329F26F00EDDC34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				816E306B2329F26F00EDDC34 /* PBXTargetDependency */,
+			);
+			name = "Copy MutableCopyTests";
+			productName = "Copy MutableCopyTests";
+			productReference = 816E30692329F26F00EDDC34 /* Copy MutableCopyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		816E30732329F26F00EDDC34 /* Copy MutableCopyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 816E30832329F26F00EDDC34 /* Build configuration list for PBXNativeTarget "Copy MutableCopyUITests" */;
+			buildPhases = (
+				816E30702329F26F00EDDC34 /* Sources */,
+				816E30712329F26F00EDDC34 /* Frameworks */,
+				816E30722329F26F00EDDC34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				816E30762329F26F00EDDC34 /* PBXTargetDependency */,
+			);
+			name = "Copy MutableCopyUITests";
+			productName = "Copy MutableCopyUITests";
+			productReference = 816E30742329F26F00EDDC34 /* Copy MutableCopyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		816E30492329F26E00EDDC34 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = iOS;
+				TargetAttributes = {
+					816E30502329F26E00EDDC34 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					816E30682329F26F00EDDC34 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 816E30502329F26E00EDDC34;
+					};
+					816E30732329F26F00EDDC34 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 816E30502329F26E00EDDC34;
+					};
+				};
+			};
+			buildConfigurationList = 816E304C2329F26E00EDDC34 /* Build configuration list for PBXProject "Copy MutableCopy" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 816E30482329F26E00EDDC34;
+			productRefGroup = 816E30522329F26E00EDDC34 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				816E30502329F26E00EDDC34 /* Copy MutableCopy */,
+				816E30682329F26F00EDDC34 /* Copy MutableCopyTests */,
+				816E30732329F26F00EDDC34 /* Copy MutableCopyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		816E304F2329F26E00EDDC34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				816E30612329F26F00EDDC34 /* LaunchScreen.storyboard in Resources */,
+				816E305E2329F26F00EDDC34 /* Assets.xcassets in Resources */,
+				816E305C2329F26E00EDDC34 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		816E30672329F26F00EDDC34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		816E30722329F26F00EDDC34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		816E304D2329F26E00EDDC34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				816E30592329F26E00EDDC34 /* ViewController.m in Sources */,
+				816E30642329F26F00EDDC34 /* main.m in Sources */,
+				816E30562329F26E00EDDC34 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		816E30652329F26F00EDDC34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				816E306E2329F26F00EDDC34 /* Copy_MutableCopyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		816E30702329F26F00EDDC34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				816E30792329F26F00EDDC34 /* Copy_MutableCopyUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		816E306B2329F26F00EDDC34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 816E30502329F26E00EDDC34 /* Copy MutableCopy */;
+			targetProxy = 816E306A2329F26F00EDDC34 /* PBXContainerItemProxy */;
+		};
+		816E30762329F26F00EDDC34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 816E30502329F26E00EDDC34 /* Copy MutableCopy */;
+			targetProxy = 816E30752329F26F00EDDC34 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		816E305A2329F26E00EDDC34 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				816E305B2329F26E00EDDC34 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		816E305F2329F26F00EDDC34 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				816E30602329F26F00EDDC34 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		816E307B2329F26F00EDDC34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		816E307C2329F26F00EDDC34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		816E307E2329F26F00EDDC34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Copy MutableCopy/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "objective.test.Copy-MutableCopy";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		816E307F2329F26F00EDDC34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Copy MutableCopy/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "objective.test.Copy-MutableCopy";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		816E30812329F26F00EDDC34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Copy MutableCopyTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "objective.test.Copy-MutableCopyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Copy MutableCopy.app/Copy MutableCopy";
+			};
+			name = Debug;
+		};
+		816E30822329F26F00EDDC34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Copy MutableCopyTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "objective.test.Copy-MutableCopyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Copy MutableCopy.app/Copy MutableCopy";
+			};
+			name = Release;
+		};
+		816E30842329F26F00EDDC34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Copy MutableCopyUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "objective.test.Copy-MutableCopyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Copy MutableCopy";
+			};
+			name = Debug;
+		};
+		816E30852329F26F00EDDC34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Copy MutableCopyUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "objective.test.Copy-MutableCopyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Copy MutableCopy";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		816E304C2329F26E00EDDC34 /* Build configuration list for PBXProject "Copy MutableCopy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				816E307B2329F26F00EDDC34 /* Debug */,
+				816E307C2329F26F00EDDC34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		816E307D2329F26F00EDDC34 /* Build configuration list for PBXNativeTarget "Copy MutableCopy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				816E307E2329F26F00EDDC34 /* Debug */,
+				816E307F2329F26F00EDDC34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		816E30802329F26F00EDDC34 /* Build configuration list for PBXNativeTarget "Copy MutableCopyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				816E30812329F26F00EDDC34 /* Debug */,
+				816E30822329F26F00EDDC34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		816E30832329F26F00EDDC34 /* Build configuration list for PBXNativeTarget "Copy MutableCopyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				816E30842329F26F00EDDC34 /* Debug */,
+				816E30852329F26F00EDDC34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 816E30492329F26E00EDDC34 /* Project object */;
+}
